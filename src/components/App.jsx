@@ -80,7 +80,7 @@ class App extends Component {
         </div>
         <div>
           <h2>Contacts</h2>
-          <div>All contacts: {contacts.length}</div>
+          <div className={s.lengthItem}>All contacts: {contacts.length}</div>
           <Filter value={filter} onChange={this.changeFilter} />
           {contacts.length > 0 ? (
             <ContactList

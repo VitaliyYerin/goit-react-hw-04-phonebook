@@ -1,10 +1,4 @@
 .listContacts {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  border: 1px solid #969696;
-  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
-  padding: 20px;
 }
 
 .listItem {
@@ -14,32 +8,30 @@
   margin-bottom: 5px;
   border-radius: 4px;
   background-color: #fff;
+  border: 1px solid #969696;
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
 }
 
+
+.listItem span {
+  margin-right: 20px;
+}
 
 p {
   margin-left: 30px;
 }
 
 .btn {
-  border: none;
-  border-radius: 5px;
+  height: 24px;
+  border: solid 1px rgb(115, 114, 114);
+  border-radius: 6px;
   cursor: pointer;
-  outline: none;
-  padding: 0 10px;
-  width: 100px;
-  height: 30px;
-  background-color: rgb(133, 180, 222);
-  border: none;
-  border-radius: 20px;
-  cursor: pointer;
+  box-shadow: -5px -5px 23px -13px rgba(34, 60, 80, 0.6) inset;
+}
+.btn:hover {
+  background-color: rgb(182, 190, 249);
+  border: solid 1px rgb(115, 114, 114);
+  border-radius: 6px;
+  box-shadow: -5px -5px 23px -13px rgba(34, 60, 80, 0.6) inset;
 }
 
-.btn::first-letter {
-  text-transform: uppercase;
-}
-
-.btn:hover, .btn:focus {
-  color: #fff;
-  background-color: rgb(114, 79, 163);
-}
